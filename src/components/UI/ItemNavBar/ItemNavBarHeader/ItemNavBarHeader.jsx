@@ -1,12 +1,14 @@
 import { NavLink } from "react-router-dom";
 
-export const ItemNavBarHeader = () =>{
+export const ItemNavBarHeader = ({enlace = '/', text = 'Inicio', }) =>{
     return (
-        <>
-        <li><NavLink to="/">Inicio</NavLink></li>
-        <li><NavLink to="/profile">Profile</NavLink></li>
-        <li><NavLink to="/studies">Studies</NavLink></li>
-        <li><NavLink to="/experience">Experiencia</NavLink></li>
-        </>
+        <button className="custom-btn btn-12">
+            <span><NavLink to={enlace}>Click</NavLink></span>
+            <span>
+            <li className="LiHeader"><NavLink to={enlace}>{text}</NavLink></li>
+            </span>
+        </button>
+        
+        
     )
 }

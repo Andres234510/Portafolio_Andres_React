@@ -1,4 +1,5 @@
-li{
+.LiHeader{
     margin: 20px;
     cursor: pointer;
+    padding: 1rem;
   }
