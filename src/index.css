@@ -1,5 +1,5 @@
 body {
-  width: 100vw;
+  width: 98vw;
   height: 100vh;  
   display: flex;
   flex-direction: column;
@@ -13,5 +13,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: linear-gradient(hsl(36, 99%, 50%), hsl(277, 86%, 55%));
 }
 
