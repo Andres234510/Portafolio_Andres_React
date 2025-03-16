@@ -98,15 +98,7 @@ ul{
     max-width: 200px;
     height: 35px;
     background: linear-gradient(0deg, hsl(0, 90%, 60%) 0%, hsl(240, 75%, 65%) 100%); /* Rojo a azul */
+    border-radius: 5px;
   }
   
-  /* Mejora la interacción táctil aumentando el área del botón */
-  .btn-12:before {
-    content: "";
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-  }
 }
