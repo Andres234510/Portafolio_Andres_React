@@ -121,3 +121,67 @@ a:active {
   width: 10rem;
   height: 10rem;
 }
+
+/* Media query para dispositivos entre 393px y 480px con cambio a colores rojo y azul */
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    #root {
+      background-image: linear-gradient(hsl(0, 100%, 50%), hsl(240, 100%, 50%)); /* Rojo a azul */
+    }
+    
+    .name {
+      margin: 10px;
+      font-size: 25px; /* Tamaño de fuente reducido para pantallas pequeñas */
+      color: hsl(0, 100%, 60%); /* Rojo brillante */
+      text-shadow: -1px 0 hsl(240, 60%, 40%), /* Azul oscuro */
+                    0 1px hsl(240, 60%, 40%), 
+                    1px 0 hsl(240, 60%, 40%),
+                    0 -1px hsl(240, 60%, 40%), 
+                    -2px 2px 0 hsl(240, 60%, 40%), 
+                    2px 2px 0 hsl(240, 60%, 40%), 
+                    1px 1px hsl(240, 60%, 40%), 
+                    2px 2px hsl(240, 60%, 40%), 
+                    3px 3px hsl(240, 60%, 40%),
+                    4px 4px hsl(240, 60%, 40%); /* Reducido para pantallas pequeñas */
+    }
+    
+    .text-info {
+      max-width: 90%; /* Ancho relativo para adaptarse mejor */
+      padding: 15px;
+      border-left: 4px solid hsl(240, 70%, 45%); /* Azul intenso */
+      box-shadow: 0 2px 5px hsla(0, 60%, 30%, 0.2); /* Sombra roja translúcida */
+    }
+    
+    .header {
+      background-color: hsl(0, 90%, 80%); /* Rojo claro */
+    }
+    
+    .footer {
+      background-color: hsl(240, 70%, 80%); /* Azul claro */
+    }
+    
+    a {
+      color: hsl(0, 90%, 55%); /* Rojo */
+    }
+    
+    a::after {
+      background: linear-gradient(to right, hsl(0, 99%, 50%), hsl(240, 86%, 55%)); /* Rojo a azul */
+    }
+    
+    a:hover {
+      color: hsl(240, 70%, 50%); /* Azul */
+    }
+    
+    a:visited {
+      color: hsl(0, 95%, 40%); /* Rojo oscuro */
+    }
+    
+    a:active {
+      color: hsl(240, 82%, 65%); /* Azul brillante */
+    }
+    
+    .Logo-name {
+      width: 6rem; /* Más pequeño para móviles */
+      height: 6rem;
+    }
+  }
+
