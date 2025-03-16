@@ -1,6 +1,6 @@
 body {
   width: 98vw;
-  height: 100vh;  
+  height: auto;  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +42,7 @@ body {
 
 .text-info {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 10px;
   padding: 20px;
   border-left: 4px solid hsl(280, 70%, 45%); /* Morado intenso, reemplazando el azul #3498db */
   background-color: hsla(310, 30%, 98%, 0.8); /* Fondo claro con tinte morado */
@@ -66,7 +66,6 @@ body {
   display: flex;
   align-items: center;
   justify-items: center;
-  margin: 10px;
   background-color: hsl(25, 90%, 80%); /* Naranja claro, reemplazando aquamarine */
 }
 
@@ -74,7 +73,6 @@ body {
   width: 100%;
   align-items: center;
   justify-items: center;
-  margin: 10px;
   background-color: hsl(277, 70%, 80%); /* Morado claro, reemplazando el verde */
 }
 
@@ -120,6 +118,17 @@ a:active {
   margin: 10px;
   width: 10rem;
   height: 10rem;
+}
+
+.me{
+  margin: 10px;
+  width: 15rem;
+  height: auto;
+}
+
+.I-me{
+  align-items: center;
+  justify-self: center;
 }
 
 /* Media query para dispositivos entre 393px y 480px con cambio a colores rojo y azul */
@@ -182,6 +191,12 @@ a:active {
     .Logo-name {
       width: 6rem; /* Más pequeño para móviles */
       height: 6rem;
+    }
+
+    .me{
+      margin: 10px;
+      width: 8rem;
+      height: auto;
     }
   }
 

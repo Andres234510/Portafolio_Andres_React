@@ -10,6 +10,9 @@ export const Home = () => {
         y a su vez tambien cruzo tercer semestre en Ingenieria de sistemas y computacion en la Universidad del Quindio
         ....</p>
       </div>
+      <div className='I-me'>
+      <img className='me' src="src/assets/images/me.jpeg" alt="me" />
+      </div>
       
     </div>
   )
