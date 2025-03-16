@@ -1,3 +1,10 @@
+.menu{
+  justify-items: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
 ul{
     display: flex;
     flex-direction: row;
@@ -18,10 +25,10 @@ ul{
   width: 130px;
   height: 40px;
   margin: 0.5rem;
-  color: black;
+  color: hsl(290, 10%, 20%); /* Casi negro con tinte morado */
 }
 .btn-12 span {
-  background: linear-gradient(0deg, rgb(0, 238, 127) 0%, rgb(2, 230, 251) 100%);
+  background: linear-gradient(0deg, hsl(20, 90%, 60%) 0%, hsl(260, 75%, 65%) 100%); /* Naranja a morado */
   display: block;
   position: absolute;
   width: 130px;

@@ -2,7 +2,7 @@ import { ItemNavBarHeader } from "../../UI/ItemNavBar/ItemNavBarHeader/ItemNavBa
 import './NavBar.css'
 export const NavBar = () => {
     return(
-        <nav>
+        <nav className="menu">
             <ul>
                 <ItemNavBarHeader />
                 <ItemNavBarHeader enlace = {'/profile'} text={"Profile"}/>

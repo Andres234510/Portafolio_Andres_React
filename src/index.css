@@ -16,3 +16,108 @@ body {
   background-image: linear-gradient(hsl(36, 99%, 50%), hsl(277, 86%, 55%));
 }
 
+.name {
+  text-align: left; 
+  font-family: Comic Sans MS ; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold; 
+  font-size: 50px; 
+  color: hsl(50, 100%, 60%); /* Amarillo-naranja brillante, reemplazando #EBD758 */
+  text-shadow: -1px 0 hsl(280, 60%, 40%), /* Morado oscuro, reemplazando #414D68 */
+                0 1px hsl(280, 60%, 40%), 
+                1px 0 hsl(280, 60%, 40%),
+                0 -1px hsl(280, 60%, 40%), 
+                -2px 2px 0 hsl(280, 60%, 40%), 
+                2px 2px 0 hsl(280, 60%, 40%), 
+                1px 1px hsl(280, 60%, 40%), 
+                2px 2px hsl(280, 60%, 40%), 
+                3px 3px hsl(280, 60%, 40%),
+                4px 4px hsl(280, 60%, 40%), 
+                5px 5px hsl(280, 60%, 40%), 
+                6px 6px hsl(280, 60%, 40%), 
+                7px 7px hsl(280, 60%, 40%), 
+                8px 8px hsl(280, 60%, 40%), 
+                9px 9px hsl(280, 60%, 40%);
+}
+
+.text-info {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border-left: 4px solid hsl(280, 70%, 45%); /* Morado intenso, reemplazando el azul #3498db */
+  background-color: hsla(310, 30%, 98%, 0.8); /* Fondo claro con tinte morado */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px hsla(290, 60%, 30%, 0.2); /* Sombra morada translúcida */
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.text-info p {
+  margin-bottom: 10px;
+  color: hsl(290, 10%, 20%); /* Casi negro con tinte morado, reemplazando #333 */
+}
+
+.text-info p:last-child {
+  margin-bottom: 0;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+  background-color: hsl(25, 90%, 80%); /* Naranja claro, reemplazando aquamarine */
+}
+
+.footer{
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+  background-color: hsl(277, 70%, 80%); /* Morado claro, reemplazando el verde */
+}
+
+a {
+  color: hsl(25, 90%, 55%); /* Naranja */
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Efecto de subrayado al pasar el mouse */
+a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: linear-gradient(to right, hsl(36, 99%, 50%), hsl(277, 86%, 55%));
+  transition: width 0.3s ease;
+}
+
+/* Al pasar el mouse por encima */
+a:hover {
+  color: hsl(275, 70%, 50%); /* Morado */
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+/* Enlace visitado */
+a:visited {
+  color: hsl(56, 95%, 53%); /* Morado más oscuro */
+}
+
+/* Enlace activo (cuando se está haciendo clic) */
+a:active {
+  color: hsl(340, 82%, 65%); /* Rosa brillante */
+}
+
+.Logo-name{
+  margin: 10px;
+  width: 10rem;
+  height: 10rem;
+}
