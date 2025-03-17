@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card } from '../../Layout/Card/Card'
+import { Wrapper } from '../../Layout/Wrapper/Wrapper'
 
 export const Profile = () => {
   return (
@@ -17,6 +18,8 @@ export const Profile = () => {
         <Card imge='src/assets/images/icon/react.png' text='React' porcent='45%' estilos='progress-bar-r'/>
       </div>
       
+      <Wrapper />
+
     </div>
   )
 }
