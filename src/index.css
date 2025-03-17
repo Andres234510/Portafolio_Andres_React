@@ -124,6 +124,7 @@ a:active {
   margin: 10px;
   width: 15rem;
   height: auto;
+  box-shadow: 0 0px 2rem hsl(36, 100%, 59%);
 }
 
 .I-me{
@@ -131,7 +132,8 @@ a:active {
   justify-self: center;
 }
 
-/* Media query para dispositivos entre 393px y 480px con cambio a colores rojo y azul */
+
+
   @media screen and (min-width: 320px) and (max-width: 480px) {
     #root {
       background-image: linear-gradient(hsl(0, 100%, 50%), hsl(240, 100%, 50%)); /* Rojo a azul */
