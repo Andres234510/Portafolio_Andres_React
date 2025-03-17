@@ -132,7 +132,25 @@ a:active {
   justify-self: center;
 }
 
+.Profile{
+  width: 80rem;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
 
+.cards{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1rem;
+  border-color: black;
+  background-color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+}
 
   @media screen and (min-width: 320px) and (max-width: 480px) {
     #root {
@@ -200,5 +218,24 @@ a:active {
       width: 8rem;
       height: auto;
     }
+
+    .Profile{
+      width: 20rem;
+      align-items: center;
+      justify-content: center;
+      margin: 5px;
+    }
+    
+    .cards{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-color: rgb(250, 215, 215);
+      align-items: center;
+      justify-content: center;
+    }
+
   }
 
