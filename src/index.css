@@ -136,6 +136,7 @@ a:active {
   width: 80rem;
   align-items: center;
   justify-content: center;
+  justify-items: center;
   margin: 10px;
 }
 
@@ -147,7 +148,7 @@ a:active {
   flex-wrap: wrap;
   border: 1rem;
   border-color: black;
-  background-color: antiquewhite;
+  background:linear-gradient(hsl(293, 92%, 80%), hsl(47, 78%, 89%));
   align-items: center;
   justify-content: center;
 }

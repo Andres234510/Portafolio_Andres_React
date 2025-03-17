@@ -13,9 +13,9 @@ export const Wrapper = () =>{
         </ul>
 
         <div class="english-level">
-            <h2>English Level: B2</h2>
-            <div class="progress-bar">
-                <div class="progress">B2</div>
+            <h2>English Level: B1</h2>
+            <div class="progress-bar-W">
+                <div class="progress-W">B1</div>
             </div>
         </div>
     </div>)

@@ -1,4 +1,5 @@
 .wrapper {
+    margin: 10px;
     width: 80%;
     max-width: 600px;
     background: white;
@@ -7,17 +8,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
+
 h2 {
-    color: #333;
+    color: #9C27B0;
 }
+
 .skills {
     list-style: none;
     padding: 0;
 }
+
 .skills li {
-    background: #e3f2fd;
+    background: #FFE0B2;
     padding: 12px;
-    margin: 8px 0;
+    margin: 8px;
     border-radius: 5px;
     font-weight: bold;
     display: flex;
@@ -25,22 +29,27 @@ h2 {
     justify-content: center;
     transition: background 0.3s;
 }
+
 .skills li:hover {
-    background: #bbdefb;
+    background: #E65100; 
+    color: white;
 }
+
 .english-level {
     margin-top: 20px;
 }
-.progress-bar {
+
+.progress-bar-W {
     width: 100%;
     background: #ddd;
     border-radius: 5px;
     overflow: hidden;
     height: 25px;
 }
-.progress {
-    width: 75%; /* Ajusta el porcentaje según el nivel */
-    background: #4caf50;
+
+.progress-W {
+    width: 58%;
+    background: linear-gradient(to right, #FF9800, #9C27B0); 
     color: white;
     text-align: center;
     line-height: 25px;
