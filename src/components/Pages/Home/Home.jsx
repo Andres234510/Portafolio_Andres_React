@@ -11,7 +11,7 @@ export const Home = () => {
         ....</p>
       </div>
       <div className='I-me'>
-      <img className='me' src="public/me.jpeg" alt="me" />
+      <img className='me' src="../public/me.jpeg" alt="me" />
       </div>
       
     </div>
