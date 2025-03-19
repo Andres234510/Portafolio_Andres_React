@@ -111,8 +111,13 @@
 
 
   .expi{
-    width: 800px;
+    width:  1000px;
     height: auto;
     margin: 10px;
-    background: #02ffb7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
   }
