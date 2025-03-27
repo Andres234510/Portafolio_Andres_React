@@ -1,3 +1,5 @@
+import me from './me.jpeg'
+
 import React from 'react'
 
 export const Home = () => {
@@ -11,7 +13,7 @@ export const Home = () => {
         ....</p>
       </div>
       <div className='I-me'>
-      <img className='me' src="../src/components/Pages/Home/me.jpeg" alt="me" />
+      <img className='me' src={me} alt="me" />
       </div>
       
     </div>
