@@ -1,5 +1,6 @@
 import '../Card/card.css'
-export const Card = ({imge = '../src/assets/images/icon/python.png', text ='Python', porcent='100%',  estilos='progress-bar-p' }) =>{
+import python from '../Card/python.png'
+export const Card = ({imge = {python}, text ='Python', porcent='100%',  estilos='progress-bar-p' }) =>{
     return (
 
         <div className="card">
