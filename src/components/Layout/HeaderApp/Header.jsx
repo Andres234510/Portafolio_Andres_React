@@ -1,5 +1,5 @@
 import { NavBar } from "../NavBarApp/NavBar"
-import logoName from "../../../assets/images/logo-name.jpeg"
+import logoName from "../../../assets/images/logoName.jpeg"
 
 export const Header = () => {
     return(
